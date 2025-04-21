@@ -22,7 +22,7 @@ clean:
 	-rm -rf build/
 
 dev-init:
-	git submodule update --init --recursive
+	git submodule update --init --recursive --progress
 	cd rocket-chip && git apply ../patch/rocket-chip.patch
 
 .PHONY: verilog clean dev-init
