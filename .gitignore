@@ -1,4 +1,6 @@
 build/
 out/
+patch/
+.bloop/
 .metals
 .vscode
